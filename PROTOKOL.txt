@@ -40,7 +40,7 @@ GET
   - data: pesan kesalahan
 
 POST
-* TUJUAN: untuk mengupload isi file dengan menyebutkan nama file dalam parameter
+* TUJUAN: untuk mengupload isi file dengan menyebutkan nama file dalam parameter. File yang akan diupload berada di folder files_post dan akan diupload ke folder files yang berada di server.
 * PARAMETER:
   - PARAMETER1 : nama file
 * RESULT:
@@ -52,7 +52,7 @@ POST
   - data: pesan kesalahan
 
 DELETE
-* TUJUAN: untuk menghapus file dengan menyebutkan nama file dalam parameter
+* TUJUAN: untuk menghapus file dengan menyebutkan nama file dalam parameter. File yang dihapus adalah file yang berada di server, client hanya akan melakukan request dengan mengirimkan nama file yang akan dihapus di server.
 * PARAMETER:
   - PARAMETER1 : nama file
 * RESULT:
